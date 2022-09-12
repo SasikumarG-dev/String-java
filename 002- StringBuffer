@@ -1,0 +1,19 @@
+StringBuffer:
+  
+     - StringBuffer is used to created mutable String objects.
+     - StringBuffer is Synchronous and it is thread safe.
+     - Eg: StringBuffer sb=new StringBuffer("Hello");
+     
+     
+CODE:
+
+class StringBufferExample{  
+  public static void main(String args[]){  
+    StringBuffer sb=new StringBuffer("Hello ");  
+    System.out.println(sb);
+  }  
+}  
+
+OUTPUT:
+
+Hello
