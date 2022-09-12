@@ -1,0 +1,17 @@
+String:
+
+    - String is an object that contains sequence of characters.
+    - Strings are immutable and cannot be changed after created.
+    - String objects can be created by using 
+          i)String literal
+                 -String objects created by using "Double Quotes".
+                 -Eg: String str="Hello";
+          
+          ii) By new keyword
+                 -String objects can be created by using new keyword.
+                 -Eg: String str=new String("Hello");
+    
+                 
+String Constraint Pool:
+    - String objects are stored in a special memory area known as String Constraint Pool.
+    
