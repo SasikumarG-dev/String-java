@@ -1,0 +1,18 @@
+StringBuilder:
+    
+    - StringBuilder is used to create mutable String objects.
+    - StringBuilder is Asynchronous and it is not thread safe.
+    - Eg: StringBuilder sb=new StringBuilder("Hello");
+    
+CODE:
+
+class StringBuilderExample{  
+  public static void main(String args[]){  
+    StringBuilder sb=new StringBuilder("Hello");  
+    System.out.println(sb);
+  }  
+}  
+
+OUTPUT:
+
+HELLO
