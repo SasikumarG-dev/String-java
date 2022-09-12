@@ -1,0 +1,40 @@
+toString():
+  
+    - It is a method used to return object values as Strings.
+    - It is a String representation of an object.
+    - Java internally calls toString() method when an object is created.
+    
+    
+CODE:
+
+package tostring;
+class Employee{
+    int id;
+    String name;
+    String place;
+    Employee(int id,String name,String place){
+        this.id=id;
+        this.name=name;
+        this.place=place;
+        
+    }
+    public String toString(){
+        return id+" "+name+" "+place;
+    }
+}
+public class ToString {
+    public static void main(String[] args) {
+        
+        Employee e1=new Employee(1,"Sasi","Pondy");
+        Employee e2=new Employee(2,"Kumar","Chennai");
+        System.out.println(e1+"\n"+e2);
+    }
+    
+}
+
+OUTPUT:
+
+1 Sasi Pondy
+2 Kumar Chennai
+
+*In the above code toString() is automaticallly called by JVM internally.
